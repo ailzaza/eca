@@ -50,10 +50,6 @@ python3 pwnxss.py --help
 * ETC....
 
 
-## Screenshot
-
-<img src="images/screenshot.png">
-
 ## Roadmap
 
 v0.3B:
